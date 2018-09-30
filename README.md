@@ -16,6 +16,10 @@ However, there are two challenges we still face with the extension. When the ext
 
 Another challenge we face is support for daily schedules for teachers that teach across the "schedule line". That is, if a teacher teaches some classes for seniors or juniors and some classes for freshmen or sophomores, we currently have no way to show their schedule. We understand that this only affects their lunch periods, in terms of the times of classes which they teach and we know how to solve this issue, but it will be a cumbersome and time-consuming fix, only adding to the 2,500 lines of code that comprise the front-end and back-end of Chronos.
 
+<b>Our GitHub Repo</b>
+
+I initially developed this extension on my school-issued Mac, and I uploaded all of my front-end work into the folder "STEM-Chronos" in the repo. Within that folder is everything I have built for the STEM Chronos front-end, from the GIFs that are displayed on snow days to the packages uploaded to the Chrome Web Store for distribution. What I have not included is any back-end files or information, since parts of it are secure and only to be accessed or seen by the developers. I run the back-end interface and XML files from my personal website.
+
 <b>Thank You</b>
 
 Thank You to all of the students and staff who have downloaded this extension. It's been extremley gratifying to see how a combination of my keystrokes has created a system integral to the school community.
