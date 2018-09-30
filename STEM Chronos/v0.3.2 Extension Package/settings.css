@@ -1,0 +1,99 @@
+body {
+	width: 100%;
+	float: left;
+	font-family: Avenir, Roboto;
+	background: #fafafb;
+	text-align: center;
+	margin: 0;
+}
+
+.title {
+	width: 100%;
+	font-weight: 700;
+	font-size: 17px;
+	margin: 15px 0 0 0;
+}
+
+.subtitle {
+	width: 100%;
+	float: left;
+	font-weight: 500;
+	font-size: 16px;
+	margin: 0 0 15px 0;
+	padding: 5px 0;
+	text-align: center;
+}
+
+.name-input {
+	background: none;
+	border: none;
+	font-family: Avenir, Roboto;
+	width: 200px;
+	text-align: center;
+	border-bottom: 2px solid lightgray;
+	font-size: 15px;
+	margin: 10px 0;
+}
+
+.class-inputs {
+	font-family: Avenir, Roboto;
+	font-size: 15px;
+	margin: 10px 0;
+}
+
+.lower-class-input {
+	margin: 5px;
+}
+
+.upper-class-input {
+	margin: 5px;
+}
+
+.button {
+	font-family: Avenir, Roboto;
+	font-size: 15px;
+	width: 150px;
+	margin: 20px calc((100% - 150px)/2) 0 calc((100% - 150px)/2);
+	background: gray;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	padding: 5px 0;
+	transition: background 0.3s;
+}
+
+.button:hover {
+	cursor: pointer;
+	background: lightgray;
+}
+
+.settings-saved {
+	color: #5cb85c;
+	display: none;
+	font-size: 15px;
+}
+
+.information-italics {
+	width: 370px;
+	margin: 20px calc((100% - 370px)/2) 0 calc((100% - 370px)/2);
+}
+
+.information {
+	width: 550px;
+	text-align: justify;
+	margin: 50px calc((100% - 550px)/2) 0 calc((100% - 550px)/2);
+	font-size: 10px;
+	color: gray;
+	position: absolute;
+	bottom: 0;
+}
+
+.copyright {
+	width: 550px;
+	text-align: right;
+	margin: 50px calc((100% - 550px)/2) 0 calc((100% - 550px)/2);
+	font-size: 10px;
+	color: gray;
+	position: absolute;
+	bottom: 0;
+}

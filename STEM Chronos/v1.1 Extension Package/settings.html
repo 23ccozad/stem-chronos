@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Settings</title>
+	<link href="settings.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<p class="title">STEM Chronos</p>
+	<p class="subtitle">Settings</p>
+	<p class="information-italics"><i>We use this information to determine <br/> which schedule to display in your STEM Chronos</i></p>
+	<!--<input class="name-input" id="name" type="text" name="name" placeholder="Name"/><br/>-->
+	<div class="class-inputs">
+		<div class="class-options" id="freshman-sophomore-row">
+			<input type="radio" name="user" value="freshman-sophomore" id="freshman-sophomore"/>
+			<p class="dropdown-level-1-text">I'm a freshman or sophomore.</p>
+		</div>
+		<div class="class-options" id="junior-senior-row">
+			<input type="radio" name="user" value="junior-senior" id="junior-senior" />
+			<p class="dropdown-level-1-text">I'm a junior or senior.</p>
+		</div>
+		<div class="class-options" id="staff-row">
+			<input type="radio" name="user" value="staff" id="staff" />
+			<p class="dropdown-level-1-text">I'm a staff member.</p>
+		</div>
+		<div class="dropdown-level-2-container" id="dropdown-level-2-container">
+			<p class="dropdown-level-2-text">I follow the...</p>
+			<select id="staff-selection">
+				<option value="freshman-sophomore">Freshman/sophomore schedule</option>
+				<option value="junior-senior">Junior/senior schedule</option>
+			</select>
+			<p class="note"><i>Note: We understand that some teachers follow the freshman/sophomore schedule on some letter days and the junior/senior schedule on others. A solution for this will be available soon.</i></p>
+		</div>
+	</div>
+	<p class="button" id="button">Save Settings</p>
+	<p class="settings-saved" id="settings-saved">Your Settings Saved!<br/><br/>Close this tab in your browser and<br/> open STEM Chronos to begin.</p>
+	<p class="information">Disclaimer: The creators or maintainers of this Google Chrome extension are not responsible nor liable for any errors in information communicated through any part of the extension. The creators or maintainers of this Google Chrome extension are not responsible nor liable for any decisions or actions, nor their resulting consequences, made based on information conveyed through the extension.</p>
+	<p class="copyright">v1.1 &copy; <span id="year"></span> Connor Cozad & Will Christ</p>
+	<script src="settings.js" type="text/javascript"></script>
+</body>
+</html>

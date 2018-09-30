@@ -1,0 +1,9 @@
+Version Guide
+
+v0.1	Initial development. GUI and functionality created. Not released publicly.
+v0.2	Internal testing. Released only for development team to test. All functionality and GUI complete, except back-end interface.
+v0.3	Removed name customization. Installation window added. Settings save on click. Ready for testing. 
+
+v1.0	Public release. GUI improvements. Now shows current period and time remaining in period.
+v1.1    Bug fixes and increased load speed on opening. End of the day changed from 2:40 to 2:35.
+v1.2    Bug fixes
